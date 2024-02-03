@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 10;
+    text-transform: capitalize;
+    /* background-color: blue; */
+}
+.deleteAllBtn{
+    min-width: 6em;
+    align-self: center;
+    top:2em;
+}

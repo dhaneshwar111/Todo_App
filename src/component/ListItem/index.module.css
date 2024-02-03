@@ -1,0 +1,40 @@
+.list{
+    display: flex;
+    padding: 10px;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0px 6px 10px -8px gray;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(217, 225, 226);
+    margin-bottom: 4px;
+    animation: 0.5s;
+}
+.list:nth-child(even){
+    background-color: #7ba4d6;
+}
+/* .list:hover{
+    opacity: 0.6;
+    
+} */
+.list > button{
+    margin-left: auto;
+}
+
+.item{
+    margin-left: 1em;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
+}
+
+.btnGroup{
+    margin-left: auto;
+    position: relative;
+}
+
+.edit{
+    color: rgb(63, 66, 128);
+    margin-right: 0.5em;
+}

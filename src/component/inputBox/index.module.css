@@ -1,0 +1,25 @@
+.inputhSection{
+    margin: 2vh;
+
+}
+
+.inputSection > input{
+    padding: 1vh;
+    width: 50vw;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.inputSection > button{
+    padding: 1vh;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    outline: none;
+    background-color: rgb(117, 194, 206);
+    color: white;
+   font-weight: 600;
+   text-transform: uppercase;
+   cursor: pointer;
+   font-size: 18px;
+}
